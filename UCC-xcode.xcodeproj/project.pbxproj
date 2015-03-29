@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		343BD2281AC89C3300337334 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2271AC89C3300337334 /* main.cpp */; };
+		343BD2801AC89D8000337334 /* CAdaCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD22E1AC89D8000337334 /* CAdaCounter.cpp */; };
+		343BD2811AC89D8000337334 /* CBashCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2301AC89D8000337334 /* CBashCounter.cpp */; };
+		343BD2821AC89D8000337334 /* CBatchCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2321AC89D8000337334 /* CBatchCounter.cpp */; };
+		343BD2831AC89D8000337334 /* cc_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2341AC89D8000337334 /* cc_main.cpp */; };
+		343BD2841AC89D8000337334 /* CCCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2361AC89D8000337334 /* CCCounter.cpp */; };
+		343BD2851AC89D8000337334 /* CCFScriptCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2381AC89D8000337334 /* CCFScriptCounter.cpp */; };
+		343BD2861AC89D8000337334 /* CCJavaCsCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD23A1AC89D8000337334 /* CCJavaCsCounter.cpp */; };
+		343BD2871AC89D8000337334 /* CCodeCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD23C1AC89D8000337334 /* CCodeCounter.cpp */; };
+		343BD2881AC89D8000337334 /* CColdFusionCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD23E1AC89D8000337334 /* CColdFusionCounter.cpp */; };
+		343BD2891AC89D8000337334 /* CCsharpCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2401AC89D8000337334 /* CCsharpCounter.cpp */; };
+		343BD28A1AC89D8000337334 /* CCshCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2421AC89D8000337334 /* CCshCounter.cpp */; };
+		343BD28B1AC89D8000337334 /* CCssCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2441AC89D8000337334 /* CCssCounter.cpp */; };
+		343BD28C1AC89D8000337334 /* CDataCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2461AC89D8000337334 /* CDataCounter.cpp */; };
+		343BD28D1AC89D8000337334 /* CFortranCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2481AC89D8000337334 /* CFortranCounter.cpp */; };
+		343BD28E1AC89D8000337334 /* CHtmlCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD24A1AC89D8000337334 /* CHtmlCounter.cpp */; };
+		343BD28F1AC89D8000337334 /* CJavaCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD24C1AC89D8000337334 /* CJavaCounter.cpp */; };
+		343BD2901AC89D8000337334 /* CJavascriptCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD24E1AC89D8000337334 /* CJavascriptCounter.cpp */; };
+		343BD2911AC89D8000337334 /* CMakefileCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2501AC89D8000337334 /* CMakefileCounter.cpp */; };
+		343BD2921AC89D8000337334 /* CMatlabCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2521AC89D8000337334 /* CMatlabCounter.cpp */; };
+		343BD2931AC89D8000337334 /* CMidasCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2541AC89D8000337334 /* CMidasCounter.cpp */; };
+		343BD2941AC89D8000337334 /* CmpMngr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2561AC89D8000337334 /* CmpMngr.cpp */; };
+		343BD2951AC89D8000337334 /* CmpMngrHtml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2581AC89D8000337334 /* CmpMngrHtml.cpp */; };
+		343BD2961AC89D8000337334 /* CNeXtMidasCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD25A1AC89D8000337334 /* CNeXtMidasCounter.cpp */; };
+		343BD2971AC89D8000337334 /* CPascalCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD25C1AC89D8000337334 /* CPascalCounter.cpp */; };
+		343BD2981AC89D8000337334 /* CPerlCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD25E1AC89D8000337334 /* CPerlCounter.cpp */; };
+		343BD2991AC89D8000337334 /* CPhpCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2601AC89D8000337334 /* CPhpCounter.cpp */; };
+		343BD29A1AC89D8000337334 /* CPythonCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2621AC89D8000337334 /* CPythonCounter.cpp */; };
+		343BD29B1AC89D8000337334 /* CRubyCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2641AC89D8000337334 /* CRubyCounter.cpp */; };
+		343BD29C1AC89D8000337334 /* CSqlCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2661AC89D8000337334 /* CSqlCounter.cpp */; };
+		343BD29D1AC89D8000337334 /* CTagCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2681AC89D8000337334 /* CTagCounter.cpp */; };
+		343BD29E1AC89D8000337334 /* CUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD26A1AC89D8000337334 /* CUtil.cpp */; };
+		343BD29F1AC89D8000337334 /* CVbCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD26C1AC89D8000337334 /* CVbCounter.cpp */; };
+		343BD2A01AC89D8000337334 /* CVbscriptCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD26E1AC89D8000337334 /* CVbscriptCounter.cpp */; };
+		343BD2A11AC89D8000337334 /* CVerilogCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2701AC89D8000337334 /* CVerilogCounter.cpp */; };
+		343BD2A21AC89D8000337334 /* CVHDLCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2721AC89D8000337334 /* CVHDLCounter.cpp */; };
+		343BD2A31AC89D8000337334 /* CWebCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2741AC89D8000337334 /* CWebCounter.cpp */; };
+		343BD2A41AC89D8000337334 /* CXMidasCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2761AC89D8000337334 /* CXMidasCounter.cpp */; };
+		343BD2A51AC89D8000337334 /* CXmlCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD2781AC89D8000337334 /* CXmlCounter.cpp */; };
+		343BD2A61AC89D8000337334 /* DiffTool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD27A1AC89D8000337334 /* DiffTool.cpp */; };
+		343BD2A71AC89D8000337334 /* MainObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD27C1AC89D8000337334 /* MainObject.cpp */; };
+		343BD2A81AC89D8000337334 /* UserIF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 343BD27E1AC89D8000337334 /* UserIF.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		343BD2221AC89C3300337334 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		343BD2241AC89C3300337334 /* UCC-xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "UCC-xcode"; sourceTree = BUILT_PRODUCTS_DIR; };
+		343BD2271AC89C3300337334 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		343BD22E1AC89D8000337334 /* CAdaCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAdaCounter.cpp; sourceTree = "<group>"; };
+		343BD22F1AC89D8000337334 /* CAdaCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAdaCounter.h; sourceTree = "<group>"; };
+		343BD2301AC89D8000337334 /* CBashCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CBashCounter.cpp; sourceTree = "<group>"; };
+		343BD2311AC89D8000337334 /* CBashCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBashCounter.h; sourceTree = "<group>"; };
+		343BD2321AC89D8000337334 /* CBatchCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CBatchCounter.cpp; sourceTree = "<group>"; };
+		343BD2331AC89D8000337334 /* CBatchCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBatchCounter.h; sourceTree = "<group>"; };
+		343BD2341AC89D8000337334 /* cc_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cc_main.cpp; sourceTree = "<group>"; };
+		343BD2351AC89D8000337334 /* cc_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cc_main.h; sourceTree = "<group>"; };
+		343BD2361AC89D8000337334 /* CCCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCCounter.cpp; sourceTree = "<group>"; };
+		343BD2371AC89D8000337334 /* CCCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCounter.h; sourceTree = "<group>"; };
+		343BD2381AC89D8000337334 /* CCFScriptCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCFScriptCounter.cpp; sourceTree = "<group>"; };
+		343BD2391AC89D8000337334 /* CCFScriptCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFScriptCounter.h; sourceTree = "<group>"; };
+		343BD23A1AC89D8000337334 /* CCJavaCsCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCJavaCsCounter.cpp; sourceTree = "<group>"; };
+		343BD23B1AC89D8000337334 /* CCJavaCsCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCJavaCsCounter.h; sourceTree = "<group>"; };
+		343BD23C1AC89D8000337334 /* CCodeCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCodeCounter.cpp; sourceTree = "<group>"; };
+		343BD23D1AC89D8000337334 /* CCodeCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCodeCounter.h; sourceTree = "<group>"; };
+		343BD23E1AC89D8000337334 /* CColdFusionCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CColdFusionCounter.cpp; sourceTree = "<group>"; };
+		343BD23F1AC89D8000337334 /* CColdFusionCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CColdFusionCounter.h; sourceTree = "<group>"; };
+		343BD2401AC89D8000337334 /* CCsharpCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCsharpCounter.cpp; sourceTree = "<group>"; };
+		343BD2411AC89D8000337334 /* CCsharpCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCsharpCounter.h; sourceTree = "<group>"; };
+		343BD2421AC89D8000337334 /* CCshCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCshCounter.cpp; sourceTree = "<group>"; };
+		343BD2431AC89D8000337334 /* CCshCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCshCounter.h; sourceTree = "<group>"; };
+		343BD2441AC89D8000337334 /* CCssCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CCssCounter.cpp; sourceTree = "<group>"; };
+		343BD2451AC89D8000337334 /* CCssCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCssCounter.h; sourceTree = "<group>"; };
+		343BD2461AC89D8000337334 /* CDataCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CDataCounter.cpp; sourceTree = "<group>"; };
+		343BD2471AC89D8000337334 /* CDataCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataCounter.h; sourceTree = "<group>"; };
+		343BD2481AC89D8000337334 /* CFortranCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CFortranCounter.cpp; sourceTree = "<group>"; };
+		343BD2491AC89D8000337334 /* CFortranCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFortranCounter.h; sourceTree = "<group>"; };
+		343BD24A1AC89D8000337334 /* CHtmlCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CHtmlCounter.cpp; sourceTree = "<group>"; };
+		343BD24B1AC89D8000337334 /* CHtmlCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHtmlCounter.h; sourceTree = "<group>"; };
+		343BD24C1AC89D8000337334 /* CJavaCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CJavaCounter.cpp; sourceTree = "<group>"; };
+		343BD24D1AC89D8000337334 /* CJavaCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJavaCounter.h; sourceTree = "<group>"; };
+		343BD24E1AC89D8000337334 /* CJavascriptCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CJavascriptCounter.cpp; sourceTree = "<group>"; };
+		343BD24F1AC89D8000337334 /* CJavascriptCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJavascriptCounter.h; sourceTree = "<group>"; };
+		343BD2501AC89D8000337334 /* CMakefileCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMakefileCounter.cpp; sourceTree = "<group>"; };
+		343BD2511AC89D8000337334 /* CMakefileCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMakefileCounter.h; sourceTree = "<group>"; };
+		343BD2521AC89D8000337334 /* CMatlabCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMatlabCounter.cpp; sourceTree = "<group>"; };
+		343BD2531AC89D8000337334 /* CMatlabCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMatlabCounter.h; sourceTree = "<group>"; };
+		343BD2541AC89D8000337334 /* CMidasCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMidasCounter.cpp; sourceTree = "<group>"; };
+		343BD2551AC89D8000337334 /* CMidasCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMidasCounter.h; sourceTree = "<group>"; };
+		343BD2561AC89D8000337334 /* CmpMngr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CmpMngr.cpp; sourceTree = "<group>"; };
+		343BD2571AC89D8000337334 /* CmpMngr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmpMngr.h; sourceTree = "<group>"; };
+		343BD2581AC89D8000337334 /* CmpMngrHtml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CmpMngrHtml.cpp; sourceTree = "<group>"; };
+		343BD2591AC89D8000337334 /* CmpMngrHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmpMngrHtml.h; sourceTree = "<group>"; };
+		343BD25A1AC89D8000337334 /* CNeXtMidasCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CNeXtMidasCounter.cpp; sourceTree = "<group>"; };
+		343BD25B1AC89D8000337334 /* CNeXtMidasCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNeXtMidasCounter.h; sourceTree = "<group>"; };
+		343BD25C1AC89D8000337334 /* CPascalCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPascalCounter.cpp; sourceTree = "<group>"; };
+		343BD25D1AC89D8000337334 /* CPascalCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPascalCounter.h; sourceTree = "<group>"; };
+		343BD25E1AC89D8000337334 /* CPerlCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPerlCounter.cpp; sourceTree = "<group>"; };
+		343BD25F1AC89D8000337334 /* CPerlCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPerlCounter.h; sourceTree = "<group>"; };
+		343BD2601AC89D8000337334 /* CPhpCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPhpCounter.cpp; sourceTree = "<group>"; };
+		343BD2611AC89D8000337334 /* CPhpCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPhpCounter.h; sourceTree = "<group>"; };
+		343BD2621AC89D8000337334 /* CPythonCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPythonCounter.cpp; sourceTree = "<group>"; };
+		343BD2631AC89D8000337334 /* CPythonCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPythonCounter.h; sourceTree = "<group>"; };
+		343BD2641AC89D8000337334 /* CRubyCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CRubyCounter.cpp; sourceTree = "<group>"; };
+		343BD2651AC89D8000337334 /* CRubyCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRubyCounter.h; sourceTree = "<group>"; };
+		343BD2661AC89D8000337334 /* CSqlCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSqlCounter.cpp; sourceTree = "<group>"; };
+		343BD2671AC89D8000337334 /* CSqlCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSqlCounter.h; sourceTree = "<group>"; };
+		343BD2681AC89D8000337334 /* CTagCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CTagCounter.cpp; sourceTree = "<group>"; };
+		343BD2691AC89D8000337334 /* CTagCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTagCounter.h; sourceTree = "<group>"; };
+		343BD26A1AC89D8000337334 /* CUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CUtil.cpp; sourceTree = "<group>"; };
+		343BD26B1AC89D8000337334 /* CUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUtil.h; sourceTree = "<group>"; };
+		343BD26C1AC89D8000337334 /* CVbCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVbCounter.cpp; sourceTree = "<group>"; };
+		343BD26D1AC89D8000337334 /* CVbCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVbCounter.h; sourceTree = "<group>"; };
+		343BD26E1AC89D8000337334 /* CVbscriptCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVbscriptCounter.cpp; sourceTree = "<group>"; };
+		343BD26F1AC89D8000337334 /* CVbscriptCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVbscriptCounter.h; sourceTree = "<group>"; };
+		343BD2701AC89D8000337334 /* CVerilogCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVerilogCounter.cpp; sourceTree = "<group>"; };
+		343BD2711AC89D8000337334 /* CVerilogCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVerilogCounter.h; sourceTree = "<group>"; };
+		343BD2721AC89D8000337334 /* CVHDLCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CVHDLCounter.cpp; sourceTree = "<group>"; };
+		343BD2731AC89D8000337334 /* CVHDLCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVHDLCounter.h; sourceTree = "<group>"; };
+		343BD2741AC89D8000337334 /* CWebCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CWebCounter.cpp; sourceTree = "<group>"; };
+		343BD2751AC89D8000337334 /* CWebCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWebCounter.h; sourceTree = "<group>"; };
+		343BD2761AC89D8000337334 /* CXMidasCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CXMidasCounter.cpp; sourceTree = "<group>"; };
+		343BD2771AC89D8000337334 /* CXMidasCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMidasCounter.h; sourceTree = "<group>"; };
+		343BD2781AC89D8000337334 /* CXmlCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CXmlCounter.cpp; sourceTree = "<group>"; };
+		343BD2791AC89D8000337334 /* CXmlCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXmlCounter.h; sourceTree = "<group>"; };
+		343BD27A1AC89D8000337334 /* DiffTool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DiffTool.cpp; sourceTree = "<group>"; };
+		343BD27B1AC89D8000337334 /* DiffTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiffTool.h; sourceTree = "<group>"; };
+		343BD27C1AC89D8000337334 /* MainObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainObject.cpp; sourceTree = "<group>"; };
+		343BD27D1AC89D8000337334 /* MainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainObject.h; sourceTree = "<group>"; };
+		343BD27E1AC89D8000337334 /* UserIF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserIF.cpp; sourceTree = "<group>"; };
+		343BD27F1AC89D8000337334 /* UserIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserIF.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		343BD2211AC89C3300337334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		343BD21B1AC89C3300337334 = {
+			isa = PBXGroup;
+			children = (
+				343BD2261AC89C3300337334 /* UCC-xcode */,
+				343BD2251AC89C3300337334 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		343BD2251AC89C3300337334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				343BD2241AC89C3300337334 /* UCC-xcode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		343BD2261AC89C3300337334 /* UCC-xcode */ = {
+			isa = PBXGroup;
+			children = (
+				343BD22E1AC89D8000337334 /* CAdaCounter.cpp */,
+				343BD22F1AC89D8000337334 /* CAdaCounter.h */,
+				343BD2301AC89D8000337334 /* CBashCounter.cpp */,
+				343BD2311AC89D8000337334 /* CBashCounter.h */,
+				343BD2321AC89D8000337334 /* CBatchCounter.cpp */,
+				343BD2331AC89D8000337334 /* CBatchCounter.h */,
+				343BD2341AC89D8000337334 /* cc_main.cpp */,
+				343BD2351AC89D8000337334 /* cc_main.h */,
+				343BD2361AC89D8000337334 /* CCCounter.cpp */,
+				343BD2371AC89D8000337334 /* CCCounter.h */,
+				343BD2381AC89D8000337334 /* CCFScriptCounter.cpp */,
+				343BD2391AC89D8000337334 /* CCFScriptCounter.h */,
+				343BD23A1AC89D8000337334 /* CCJavaCsCounter.cpp */,
+				343BD23B1AC89D8000337334 /* CCJavaCsCounter.h */,
+				343BD23C1AC89D8000337334 /* CCodeCounter.cpp */,
+				343BD23D1AC89D8000337334 /* CCodeCounter.h */,
+				343BD23E1AC89D8000337334 /* CColdFusionCounter.cpp */,
+				343BD23F1AC89D8000337334 /* CColdFusionCounter.h */,
+				343BD2401AC89D8000337334 /* CCsharpCounter.cpp */,
+				343BD2411AC89D8000337334 /* CCsharpCounter.h */,
+				343BD2421AC89D8000337334 /* CCshCounter.cpp */,
+				343BD2431AC89D8000337334 /* CCshCounter.h */,
+				343BD2441AC89D8000337334 /* CCssCounter.cpp */,
+				343BD2451AC89D8000337334 /* CCssCounter.h */,
+				343BD2461AC89D8000337334 /* CDataCounter.cpp */,
+				343BD2471AC89D8000337334 /* CDataCounter.h */,
+				343BD2481AC89D8000337334 /* CFortranCounter.cpp */,
+				343BD2491AC89D8000337334 /* CFortranCounter.h */,
+				343BD24A1AC89D8000337334 /* CHtmlCounter.cpp */,
+				343BD24B1AC89D8000337334 /* CHtmlCounter.h */,
+				343BD24C1AC89D8000337334 /* CJavaCounter.cpp */,
+				343BD24D1AC89D8000337334 /* CJavaCounter.h */,
+				343BD24E1AC89D8000337334 /* CJavascriptCounter.cpp */,
+				343BD24F1AC89D8000337334 /* CJavascriptCounter.h */,
+				343BD2501AC89D8000337334 /* CMakefileCounter.cpp */,
+				343BD2511AC89D8000337334 /* CMakefileCounter.h */,
+				343BD2521AC89D8000337334 /* CMatlabCounter.cpp */,
+				343BD2531AC89D8000337334 /* CMatlabCounter.h */,
+				343BD2541AC89D8000337334 /* CMidasCounter.cpp */,
+				343BD2551AC89D8000337334 /* CMidasCounter.h */,
+				343BD2561AC89D8000337334 /* CmpMngr.cpp */,
+				343BD2571AC89D8000337334 /* CmpMngr.h */,
+				343BD2581AC89D8000337334 /* CmpMngrHtml.cpp */,
+				343BD2591AC89D8000337334 /* CmpMngrHtml.h */,
+				343BD25A1AC89D8000337334 /* CNeXtMidasCounter.cpp */,
+				343BD25B1AC89D8000337334 /* CNeXtMidasCounter.h */,
+				343BD25C1AC89D8000337334 /* CPascalCounter.cpp */,
+				343BD25D1AC89D8000337334 /* CPascalCounter.h */,
+				343BD25E1AC89D8000337334 /* CPerlCounter.cpp */,
+				343BD25F1AC89D8000337334 /* CPerlCounter.h */,
+				343BD2601AC89D8000337334 /* CPhpCounter.cpp */,
+				343BD2611AC89D8000337334 /* CPhpCounter.h */,
+				343BD2621AC89D8000337334 /* CPythonCounter.cpp */,
+				343BD2631AC89D8000337334 /* CPythonCounter.h */,
+				343BD2641AC89D8000337334 /* CRubyCounter.cpp */,
+				343BD2651AC89D8000337334 /* CRubyCounter.h */,
+				343BD2661AC89D8000337334 /* CSqlCounter.cpp */,
+				343BD2671AC89D8000337334 /* CSqlCounter.h */,
+				343BD2681AC89D8000337334 /* CTagCounter.cpp */,
+				343BD2691AC89D8000337334 /* CTagCounter.h */,
+				343BD26A1AC89D8000337334 /* CUtil.cpp */,
+				343BD26B1AC89D8000337334 /* CUtil.h */,
+				343BD26C1AC89D8000337334 /* CVbCounter.cpp */,
+				343BD26D1AC89D8000337334 /* CVbCounter.h */,
+				343BD26E1AC89D8000337334 /* CVbscriptCounter.cpp */,
+				343BD26F1AC89D8000337334 /* CVbscriptCounter.h */,
+				343BD2701AC89D8000337334 /* CVerilogCounter.cpp */,
+				343BD2711AC89D8000337334 /* CVerilogCounter.h */,
+				343BD2721AC89D8000337334 /* CVHDLCounter.cpp */,
+				343BD2731AC89D8000337334 /* CVHDLCounter.h */,
+				343BD2741AC89D8000337334 /* CWebCounter.cpp */,
+				343BD2751AC89D8000337334 /* CWebCounter.h */,
+				343BD2761AC89D8000337334 /* CXMidasCounter.cpp */,
+				343BD2771AC89D8000337334 /* CXMidasCounter.h */,
+				343BD2781AC89D8000337334 /* CXmlCounter.cpp */,
+				343BD2791AC89D8000337334 /* CXmlCounter.h */,
+				343BD27A1AC89D8000337334 /* DiffTool.cpp */,
+				343BD27B1AC89D8000337334 /* DiffTool.h */,
+				343BD27C1AC89D8000337334 /* MainObject.cpp */,
+				343BD27D1AC89D8000337334 /* MainObject.h */,
+				343BD27E1AC89D8000337334 /* UserIF.cpp */,
+				343BD27F1AC89D8000337334 /* UserIF.h */,
+				343BD2271AC89C3300337334 /* main.cpp */,
+			);
+			path = "UCC-xcode";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		343BD2231AC89C3300337334 /* UCC-xcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 343BD22B1AC89C3300337334 /* Build configuration list for PBXNativeTarget "UCC-xcode" */;
+			buildPhases = (
+				343BD2201AC89C3300337334 /* Sources */,
+				343BD2211AC89C3300337334 /* Frameworks */,
+				343BD2221AC89C3300337334 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UCC-xcode";
+			productName = "UCC-xcode";
+			productReference = 343BD2241AC89C3300337334 /* UCC-xcode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		343BD21C1AC89C3300337334 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = UCC;
+				TargetAttributes = {
+					343BD2231AC89C3300337334 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 343BD21F1AC89C3300337334 /* Build configuration list for PBXProject "UCC-xcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 343BD21B1AC89C3300337334;
+			productRefGroup = 343BD2251AC89C3300337334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				343BD2231AC89C3300337334 /* UCC-xcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		343BD2201AC89C3300337334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343BD2891AC89D8000337334 /* CCsharpCounter.cpp in Sources */,
+				343BD2911AC89D8000337334 /* CMakefileCounter.cpp in Sources */,
+				343BD2A21AC89D8000337334 /* CVHDLCounter.cpp in Sources */,
+				343BD29F1AC89D8000337334 /* CVbCounter.cpp in Sources */,
+				343BD2A61AC89D8000337334 /* DiffTool.cpp in Sources */,
+				343BD2841AC89D8000337334 /* CCCounter.cpp in Sources */,
+				343BD2951AC89D8000337334 /* CmpMngrHtml.cpp in Sources */,
+				343BD2281AC89C3300337334 /* main.cpp in Sources */,
+				343BD2861AC89D8000337334 /* CCJavaCsCounter.cpp in Sources */,
+				343BD2A41AC89D8000337334 /* CXMidasCounter.cpp in Sources */,
+				343BD2961AC89D8000337334 /* CNeXtMidasCounter.cpp in Sources */,
+				343BD2A51AC89D8000337334 /* CXmlCounter.cpp in Sources */,
+				343BD2811AC89D8000337334 /* CBashCounter.cpp in Sources */,
+				343BD28F1AC89D8000337334 /* CJavaCounter.cpp in Sources */,
+				343BD2991AC89D8000337334 /* CPhpCounter.cpp in Sources */,
+				343BD2A01AC89D8000337334 /* CVbscriptCounter.cpp in Sources */,
+				343BD28A1AC89D8000337334 /* CCshCounter.cpp in Sources */,
+				343BD2A71AC89D8000337334 /* MainObject.cpp in Sources */,
+				343BD2941AC89D8000337334 /* CmpMngr.cpp in Sources */,
+				343BD28B1AC89D8000337334 /* CCssCounter.cpp in Sources */,
+				343BD2851AC89D8000337334 /* CCFScriptCounter.cpp in Sources */,
+				343BD28C1AC89D8000337334 /* CDataCounter.cpp in Sources */,
+				343BD2A31AC89D8000337334 /* CWebCounter.cpp in Sources */,
+				343BD29C1AC89D8000337334 /* CSqlCounter.cpp in Sources */,
+				343BD2921AC89D8000337334 /* CMatlabCounter.cpp in Sources */,
+				343BD28E1AC89D8000337334 /* CHtmlCounter.cpp in Sources */,
+				343BD2871AC89D8000337334 /* CCodeCounter.cpp in Sources */,
+				343BD2931AC89D8000337334 /* CMidasCounter.cpp in Sources */,
+				343BD28D1AC89D8000337334 /* CFortranCounter.cpp in Sources */,
+				343BD29A1AC89D8000337334 /* CPythonCounter.cpp in Sources */,
+				343BD2971AC89D8000337334 /* CPascalCounter.cpp in Sources */,
+				343BD2881AC89D8000337334 /* CColdFusionCounter.cpp in Sources */,
+				343BD29D1AC89D8000337334 /* CTagCounter.cpp in Sources */,
+				343BD2A81AC89D8000337334 /* UserIF.cpp in Sources */,
+				343BD2801AC89D8000337334 /* CAdaCounter.cpp in Sources */,
+				343BD2831AC89D8000337334 /* cc_main.cpp in Sources */,
+				343BD2A11AC89D8000337334 /* CVerilogCounter.cpp in Sources */,
+				343BD29E1AC89D8000337334 /* CUtil.cpp in Sources */,
+				343BD29B1AC89D8000337334 /* CRubyCounter.cpp in Sources */,
+				343BD2981AC89D8000337334 /* CPerlCounter.cpp in Sources */,
+				343BD2821AC89D8000337334 /* CBatchCounter.cpp in Sources */,
+				343BD2901AC89D8000337334 /* CJavascriptCounter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		343BD2291AC89C3300337334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		343BD22A1AC89C3300337334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		343BD22C1AC89C3300337334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		343BD22D1AC89C3300337334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		343BD21F1AC89C3300337334 /* Build configuration list for PBXProject "UCC-xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				343BD2291AC89C3300337334 /* Debug */,
+				343BD22A1AC89C3300337334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		343BD22B1AC89C3300337334 /* Build configuration list for PBXNativeTarget "UCC-xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				343BD22C1AC89C3300337334 /* Debug */,
+				343BD22D1AC89C3300337334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 343BD21C1AC89C3300337334 /* Project object */;
+}

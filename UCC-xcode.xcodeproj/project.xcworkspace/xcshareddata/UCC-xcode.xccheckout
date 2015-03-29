@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D650C7B2-6BA0-444F-8C73-6A378FF435DF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UCC-xcode</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>f58b0572-90ad-48df-963a-76e1e820129b++4532</key>
+		<string>svn://csse.usc.edu/ucc_unified/all_files</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>dr_class/5_Projects/Complexity/2015_1_Spring/CC4/2015_1_src/UCC-xcode/UCC-xcode.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>f58b0572-90ad-48df-963a-76e1e820129b++4532</key>
+		<string>../../../../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>f58b0572-90ad-48df-963a-76e1e820129b++4532</key>
+		<string>svn://csse.usc.edu/ucc_unified</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://csse.usc.edu/ucc_unified/all_files/dr_class/5_Projects/Complexity/2015_1_Spring/CC4/2015_1_src/UCC-xcode/UCC-xcode.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>f58b0572-90ad-48df-963a-76e1e820129b++4532</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>f58b0572-90ad-48df-963a-76e1e820129b++4532</string>
+			<key>IDESourceControlWCCName</key>
+			<string>all_files</string>
+		</dict>
+	</array>
+</dict>
+</plist>
