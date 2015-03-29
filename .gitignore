@@ -2,3 +2,5 @@
 .DS*
 ./bin/Debug/*
 ./intermediates/*
+intermediates
+bin/Debug/UCC-xcode
